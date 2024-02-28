@@ -7,7 +7,7 @@ body{
   position: relative;
   padding: 60px;
 }
-.container,.container2{
+.container{
     height: 1550px;
     width: 40%;
     background-color: #f3e5d8;
@@ -65,13 +65,13 @@ table{
         padding: 5px;
     }
 }
-.container2{
-    position: absolute;
-    float: left;
-    
-        margin-left: -675px;
-        margin-bottom: -715px;
-
-    /* background-color: blue; */
+@media (max-width:375px){
+   .container ,.parent{
+    width: 100%;
+    margin: 0;
+   }
+   body{
+    padding: 0;
+   }
 
 }
